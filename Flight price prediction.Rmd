@@ -656,7 +656,7 @@ I get some good results, but there is a lot of room for improvement, these issue
 
 + More and better hardware, since I'm doing this project in a laptop, the training of the models took too much time, and I couldn't use the flight predictor in the caret functions, which affected the results of my predictions. In this area, I found two principal issues.
   * I couldn't use the full database in the caret functions which most likely would create a better model.
-  * I couldn't use different models to find a better result.
+  * I couldn't explore more models to find a better result.
 + Data available, the predictors available in the kaggle database are good for the project, but there are other factors that affects the price of a flight, for example:
   * Fuel prices.
   * How many seats are available when buying a ticket.
