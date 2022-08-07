@@ -640,11 +640,11 @@ validation_results <- validation_results %>%
 knitr::kable(validation_results, digits = 0)
 ```
 
-In this table I use multiple criteria to choose the model that I would recommend to use, but the principal criteria is the existence of negative value predictions, that means that I recommend the random forest model because it doesn't predict negative prices.
+In this table I used multiple criteria to choose the model that I would recommend to use, but the principal criteria is the existence of negative value predictions, that means that I recommend the random forest model because it doesn't predict negative prices.
 
-Also the quantiles for both random forest models are close enough that I wouldn't use them for considering which model is better, but of course the biggest different the minimum price prediction is still important, because that differences could be explain with the randomness of the data.
+Also the quantiles for both random forest models are close enough that I wouldn't use them for considering which model is better, but of course the biggest difference the minimum price is still important. And the RMSE benefit for changing the model is 71, a change of about 2%.
 
-So in conclusion I recommend to use the second model, the random forest model.
+So in conclusion I recommend using the second model, the random forest model without the flight code effect.
 
 # Conclusion
 
