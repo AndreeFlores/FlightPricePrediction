@@ -650,12 +650,12 @@ So in conclusion I recommend to use the second model, the random forest model.
 
 In this report I created 3 models to predict the prices of flights of different airlines, in this case the best results I could get was using a random forest model.
 
-From this report we get that the random forest model is useful for predicting the price of a ticket. Which can be useful for small business, since with this model is easy to predict different results if the categories are well defined, for example: in a bakery the price would be the outcome, and the predictors could be the product sold like bread or cake, the flavor, the ingredients, and with this and/or more predictors a price for a new product could be easily be predicted.
+From this report we get that the random forest model is useful for predicting the price of a ticket. Which can be useful for small business, since with this model is easy to predict different results if the categories are well defined, for example: in a bakery the price of a product would be the outcome, and the predictors could be the type of product sold like bread or cake, the flavor, the ingredients, and with these or more predictors a price for a new product could be easily be predicted.
 
-I get some good results, but there is a lot of room for improvement, these issues I divided in different categories:
+I got some good results, but there is a lot of room for improvement, these issues I divided in different categories:
 
 + More and better hardware, since I'm doing this project in a laptop, the training of the models took too much time, and I couldn't use the flight predictor in the caret functions, which affected the results of my predictions. In this area, I found two principal issues.
-  * I couldn't use the full database in the caret functions which most likely would create a better model.
+  * I couldn't use the full database with the caret functions which most likely would create a better model.
   * I couldn't explore more models to find a better result.
 + Data available, the predictors available in the kaggle database are good for the project, but there are other factors that affects the price of a flight, for example:
   * Fuel prices.
@@ -665,6 +665,6 @@ I get some good results, but there is a lot of room for improvement, these issue
   
 For future work I have the following plans:
 
-+ Use dummy variables for the predictors with a lot of categories.
++ Use dummy variables for the predictors with a lot of categories, like the flight code.
 + Find different models, especially variations of the random forest model.
 + Since the database is frequently updated, I could get more data and merge it with the database that I already have or used it to test the models.
